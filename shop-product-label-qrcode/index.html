@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>سناپوش | مرجع پوشاک بانوان و کودکان</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&family=ElMessiri&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Vazirmatn', sans-serif;
+      background: linear-gradient(135deg, #fff3e0, #e8f5e9);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      direction: rtl;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 30px;
+      box-shadow: 0 25px 80px rgba(0,0,0,0.3);
+      padding: 50px 40px;
+      max-width: 700px;
+      width: 90%;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card h1 {
+      font-family: 'ElMessiri', sans-serif;
+      font-size: 36px;
+      color: #2e7d32;
+      margin-bottom: 25px;
+    }
+
+    .info, .contact, .instagram-row {
+      margin: 20px 0;
+      font-size: 20px;
+      color: #444;
+    }
+
+    .info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .info .address {
+      display: flex;
+      align-items: center;
+      flex: 1 1 60%;
+      justify-content: flex-start;
+    }
+
+    .info .address i {
+      font-size: 26px;
+      margin-left: 10px;
+      color: #ff9800;
+    }
+
+    .info .map-icons {
+      display: flex;
+      align-items: center;
+      flex: 1 1 35%;
+      justify-content: flex-end;
+      gap: 15px;
+    }
+
+    .info .map-icons a {
+      font-size: 24px;
+      color: #2e7d32;
+      text-decoration: none;
+    }
+
+    .contact a {
+      display: flex;
+      align-items: center;
+      color: #000;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .contact i {
+      font-size: 26px;
+      margin-left: 10px;
+      color: #ff9800;
+    }
+
+    .instagram-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .insta-item {
+      flex: 1 1 30%;
+      background: #e8f5e9;
+      padding: 10px 15px;
+      border-radius: 12px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .insta-item a {
+      display: flex;
+      align-items: center;
+      color: #2e7d32;
+      text-decoration: none;
+    }
+
+    .insta-item a:hover {
+      text-decoration: underline;
+    }
+
+    .insta-item i {
+      font-size: 24px;
+      margin-left: 10px;
+      color: #ff9800;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 35px 25px;
+      }
+      .card h1 {
+        font-size: 28px;
+      }
+      .info {
+        flex-direction: column;
+        align-items: center;
+      }
+      .info .address {
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+      .info .map-icons {
+        justify-content: center;
+      }
+      .contact {
+        font-size: 18px;
+      }
+      .insta-item {
+        flex: 1 1 45%;
+      }
+      .insta-item:nth-child(3) {
+        flex: 1 1 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>فروشگاه لباس سناپوش</h1>
+
+    <div class="info">
+      <div class="address">
+        <i class="fas fa-map-marker-alt"></i> هرمزگان - شهرستان پارسیان - میدان ولی عصر (عج) - فروشگاه پوشاک سناپوش
+</div>
+      <div class="map-icons">
+        <a href="https://maps.app.goo.gl/53QZkmKfEcqAKVkA6" target="_blank" title="فروشگاه سناپوش در گوگل مپ"><i class="fas fa-map"></i></a>
+        <a href="https://nshn.ir/ed_bY3ODpF4JFk" target="_blank" title="فروشگاه سناپوش در نشان "><i class="fas fa-store"></i></a>
+      </div>
+    </div>
+
+    <div class="contact">
+      <a href="tel:+989026422778"><i class="fas fa-phone"></i> ۰۹۰۲۶۴۲۲۷۷۸</a>
+    </div>
+
+    <div class="contact">
+      <a href="https://wa.me/989026422778" target="_blank"><i class="fab fa-whatsapp"></i> ارسال پیام واتس‌اپ</a>
+    </div>
+
+    <div class="instagram-row">
+      <div class="insta-item">
+        <a href="https://instagram.com/sanapooshir" target="_blank"><i class="fab fa-instagram"></i>sanapooshir@</a>
+      </div>
+      <div class="insta-item">
+        <a href="https://instagram.com/snapoosh" target="_blank"><i class="fab fa-instagram"></i>snapoosh@</a>
+      </div>
+      <div class="insta-item">
+        <a href="https://instagram.com/gallerysanabanoo" target="_blank"><i class="fab fa-instagram"></i>gallerysanabanoo@</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
